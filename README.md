@@ -8,6 +8,8 @@ Learning TypeScript and React step by step, from the basics. Each folder is one 
 | 2 | [02-calculator](02-calculator/) | Calculator in plain TypeScript + DOM: union types, interfaces, narrowing, type guards |
 | 3 | [03-calculator-react](03-calculator-react/) | Same calculator in React + TypeScript: components, props, `useState`, `useEffect` |
 
+📖 **[Plain TypeScript vs React: what's the difference?](difference_02_and_03.md)** compares Step 2 and Step 3.
+
 ## Running a lesson
 ```bash
 cd <folder>
