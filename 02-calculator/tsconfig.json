@@ -1,0 +1,11 @@
+{
+  // tsconfig.json = settings for the TypeScript compiler.
+  // Now we can just run "npx tsc" without naming the file.
+  "compilerOptions": {
+    "target": "ES2020",          // which JavaScript version to output
+    "lib": ["ES2020", "DOM"],    // "DOM" gives us types like HTMLButtonElement
+    "strict": true,              // turn on all the safety checks (recommended!)
+    "outDir": "."                // put calculator.js next to calculator.ts
+  },
+  "files": ["calculator.ts"]
+}
